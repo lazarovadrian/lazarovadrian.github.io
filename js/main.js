@@ -3,7 +3,7 @@ let dataProjects = [
       "id":"1",
       "title":"Турфирма Анастасия",
       "desc":"",
-      "img":"https://lazarovadrian.github.io/img/js_primer.jpg",
+      "img":"https://lazarovadrian.github.io/img/anastasiyasochi.jpg",
       "link":"https://anastasiyasochi.ru/"
     },
     {
