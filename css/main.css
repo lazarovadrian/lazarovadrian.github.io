@@ -26,7 +26,8 @@
     height: auto;
     margin: 15px 0;
 }
-.list_projects .item_project a {}
+.list_projects .item_project a {text-decoration: none;}
+.list_projects .item_project a:hover{color: #0b6086}
 .list_projects .item_project > a > span {
     display: block;
     width: 100%;
@@ -49,8 +50,16 @@
     -ms-transition: all .45s ease-out;
     transition: all .45s ease-out;
 }
-.list_projects .item_project > a > span img:hover{top:-130px;}
+.list_projects .item_project > a > span img:hover{top:-110px;}
 .list_projects .item_project .project-body {
     margin: 10px 0;
+    font-size: 1.2rem;
+}
+.list_projects .item_project .project-body .title {
+    color: rgb(110, 110, 110);
+    font-weight: 500;
+}
+.list_projects .item_project .project-body .desc{
     font-size: 1rem;
+    color:rgb(150, 150, 150);
 }
