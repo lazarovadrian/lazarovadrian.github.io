@@ -49,7 +49,7 @@ dataProjects.forEach(i => {
         project.classList.add('item_project');
         project.innerHTML = `   
             <a href="${i.link}" aria-label="${i.title}" target="_blank">
-              <img src="${i.img}" alt="${i.title}" class="img"> 
+              <span><img src="${i.img}" alt="${i.title}" class="img"></span>
               <div class="project-body">                            
                   <p class="title">${i.title}</p>
                   <p class="desc">${i.desc}</p>
