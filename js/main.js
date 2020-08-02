@@ -10,33 +10,34 @@ let dataProjects = [
       "id":"2",
       "title":"Свадебный салон Кокетка",
       "desc":"",
-      "img":"https://lazarovadrian.github.io/img/koketka.png",
+      "img":"https://lazarovadrian.github.io/img/koketka.jpg",
       "link":"https://koketkadress.ru/"
     },
     {
       "id":"3",
       "title":"EKazakova Wedding Photographer",
       "desc":"",
-      "img":"https://lazarovadrian.github.io/img/ekazakova.png",
+      "img":"https://lazarovadrian.github.io/img/ekazakova.jpg",
       "link":"https://ekazakova.ru/"
     },
     {
       "id":"4",
       "title":"Аренда машин под такси",
       "desc":"",
-      "img":"https://lazarovadrian.github.io/img/arendataxi.png",
+      "img":"https://lazarovadrian.github.io/img/arendataxi.jpg",
       "link":"http://arendav.taxi/"
     },
     {
       "id":"5",
       "title":"Фламена",
       "desc":"",
-      "img":"https://lazarovadrian.github.io/img/flamena.png",
+      "img":"https://lazarovadrian.github.io/img/flamena.jpg",
       "link":"http://www.flamena-a.ru/"
     }
 ];
 
 dataProjects.forEach(i => {
+    let listProjects = document.querySelector('.list_projects');
     let project = document.createElement('div');
         project.classList.add('item_project');
         project.innerHTML = `   
@@ -46,5 +47,5 @@ dataProjects.forEach(i => {
                 <p class="desc">${i.desc}</p>
             </div>
         `;
-    document.querySelector('.list_projects').appendChild(project);
+   listProjects.appendChild(project);
 });
