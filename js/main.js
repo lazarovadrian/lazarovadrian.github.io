@@ -41,11 +41,13 @@ dataProjects.forEach(i => {
     let project = document.createElement('div');
         project.classList.add('item_project');
         project.innerHTML = `   
-            <img src="${i.img}" alt="${i.title}" class="img"> 
-            <div class="project-body">                            
-                <a href="${i.link}" aria-label="${i.title}" target="_blank" class="title">${i.title}</a>
-                <p class="desc">${i.desc}</p>
-            </div>
+            <a href="${i.link}" aria-label="${i.title}" target="_blank">
+              <img src="${i.img}" alt="${i.title}" class="img"> 
+              <div class="project-body">                            
+                  <p class="title">${i.title}</p>
+                  <p class="desc">${i.desc}</p>
+              </div>
+            </a>
         `;
    listProjects.appendChild(project);
 });
