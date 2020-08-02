@@ -25,11 +25,6 @@
     width: calc(80% / 2);
     height: auto;
     margin: 15px 0;
-    transition: all .45s ease-out;
-    -webkit-transition: all .45s ease-out;
-    -moz-transition: all .45s ease-out;
-    -o-transition: all .45s ease-out;
-    -ms-transition: all .45s ease-out;
 }
 .list_projects .item_project a {}
 .list_projects .item_project > a > span {
@@ -46,8 +41,14 @@
     object-fit: cover;
     position: relative;
     top: 0;
+
+    -webkit-transition: all .45s ease-out;
+    -moz-transition: all .45s ease-out;
+    -o-transition: all .45s ease-out;
+    -ms-transition: all .45s ease-out;
+    transition: all .45s ease-out;
 }
-.list_projects .item_project > a > span img:hover{top:-150px;}
+.list_projects .item_project > a > span img:hover{top:-130px;}
 .list_projects .item_project .project-body {
     margin: 10px 0;
     font-size: 1rem;
