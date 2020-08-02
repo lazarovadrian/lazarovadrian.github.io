@@ -17,7 +17,7 @@ let dataProjects = [
       "id":"3",
       "title":"EKazakova Wedding Photographer",
       "desc":"",
-      "img":"https://lazarovadrian.github.io/img/ekazakova.jpg",
+      "img":"https://lazarovadrian.github.io/img/ekazakova.png",
       "link":"https://ekazakova.ru/"
     },
     {
