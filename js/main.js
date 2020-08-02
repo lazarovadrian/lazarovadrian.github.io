@@ -10,7 +10,7 @@ let dataProjects = [
       "id":"2",
       "title":"Свадебный салон Кокетка",
       "desc":"",
-      "img":"https://lazarovadrian.github.io/img/koketka.jpg",
+      "img":"https://lazarovadrian.github.io/img/koketka.png",
       "link":"https://koketkadress.ru/"
     },
     {
