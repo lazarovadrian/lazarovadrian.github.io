@@ -24,7 +24,7 @@ let dataProjects = [
       "id":"4",
       "title":"Аренда машин под такси",
       "desc":"",
-      "img":"https://lazarovadrian.github.io/img/arendataxi.jpg",
+      "img":"https://lazarovadrian.github.io/img/arendataxi.png",
       "link":"http://arendav.taxi/"
     },
     {
@@ -33,6 +33,13 @@ let dataProjects = [
       "desc":"",
       "img":"https://lazarovadrian.github.io/img/flamena.jpg",
       "link":"http://www.flamena-a.ru/"
+    },
+    {
+      "id":"6",
+      "title":"Сергей Терешкин",
+      "desc":"",
+      "img":"https://lazarovadrian.github.io/img/sergSite.png",
+      "link":"#"
     }
 ];
 
