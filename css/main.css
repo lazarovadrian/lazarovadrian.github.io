@@ -38,6 +38,7 @@
     width: 100%;
     max-width: 100%;
     height: auto;
+    display: block;
     object-fit: cover;
     position: relative;
     top: 0;
