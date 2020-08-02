@@ -13,6 +13,10 @@
     flex-direction: column;
     align-items: center;
 }
+.content h1 {
+    font-size: 1.3rem;
+    color: #424242;
+}
 .list_projects {
     display: flex;
     flex-flow: row wrap;
