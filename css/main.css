@@ -32,7 +32,7 @@
     -ms-transition: all .25s ease-out;
     transition: all .25s ease-out;
 }
-.list_projects .item_project a img {
+.list_projects .item_project > a > img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
@@ -44,7 +44,7 @@
     position: relative;
     top: 0;
 }
-.list_projects .item_project a img:hover{top:-200;}
+.list_projects .item_project > a > img:hover{top:-200px;}
 .list_projects .item_project .project-body {
     margin: 10px 0;
     font-size: 1rem;
